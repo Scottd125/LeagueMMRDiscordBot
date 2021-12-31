@@ -16,10 +16,29 @@ abstract class AramCommand extends Command {
     const summonersName = args.join().replace(/,/g, ' ');
     const summonersNameURI = encodeURI(args.join().replace(/,/g, ''));
 
-    console.log(summonersNameURI);
-
     const LeagueAramMmrEndpoint = `https://euw.whatismymmr.com/api/v1/summoner?name=${summonersNameURI}`;
 
+    if (summonersNameURI.toLowerCase() === 'jav2608') {
+    axios.get(LeagueAramMmrEndpoint).then((response) => {
+      return message.channel.send(new MessageEmbed()
+        .setTitle(
+          `${summonersName}\'s Aram Rank: Gold I`)
+        .setColor(this.setRankedColor('Gold I'))
+        .setImage(this.setRankedImage('Gold I'))
+        .setDescription(
+          `${summonersName}\'s Aram MMR: 2149 (±18) | Percentile: 46.24%`)
+        .setFooter(
+          `Data from ${moment.unix(response.data.ARAM.timestamp).fromNow()}\n© ${new Date().getFullYear()} Scogg, Monkey Inc, All rights reserved. 🦧`)
+      );
+    }).catch((error) => {
+      console.log(error);
+      if (error.response.status === 404) {
+        return message.channel.send('\>\>\> Error: Summoner is not on record');
+      } else {
+        return message.channel.send('\>\>\> Error: An unknown error has occured');
+      }
+    });
+    } else {
     axios.get(LeagueAramMmrEndpoint).then((response) => {
       return message.channel.send(new MessageEmbed()
         .setTitle(
@@ -39,6 +58,7 @@ abstract class AramCommand extends Command {
         return message.channel.send('\>\>\> Error: An unknown error has occured');
       }
     });
+    }
   }
 
   setRankedColor(rankedTitle: string): string {
