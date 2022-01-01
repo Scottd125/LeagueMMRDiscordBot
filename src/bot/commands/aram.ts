@@ -146,40 +146,13 @@ abstract class AramCommand extends Command {
       case 'Diamond I':
         return 'https://static.wikia.nocookie.net/leagueoflegends/images/9/91/Season_2019_-_Diamond_1.png/revision/latest/scale-to-width-down/280?cb=20181229234917';
 
-      case 'Master IV':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/0/01/Season_2019_-_Master_4.png/revision/latest/scale-to-width-down/280?cb=20181229234931';
-
-      case 'Master III':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/4/46/Season_2019_-_Master_3.png/revision/latest/scale-to-width-down/280?cb=20181229234930';
-
-      case 'Master II':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/9/95/Season_2019_-_Master_2.png/revision/latest/scale-to-width-down/280?cb=20181229234930';
-
-      case 'Master I':
+      case 'Master':
         return 'https://static.wikia.nocookie.net/leagueoflegends/images/1/11/Season_2019_-_Master_1.png/revision/latest/scale-to-width-down/280?cb=20181229234929';
 
-      case 'Grandmaster IV':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/4/42/Season_2019_-_Grandmaster_4.png/revision/latest/scale-to-width-down/280?cb=20181229234925';
-
-      case 'Grandmaster III':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/f/f6/Season_2019_-_Grandmaster_3.png/revision/latest/scale-to-width-down/280?cb=20181229234924';
-
-      case 'Grandmaster II':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/5/58/Season_2019_-_Grandmaster_2.png/revision/latest/scale-to-width-down/280?cb=20181229234924';
-
-      case 'Grandmaster I':
+      case 'Grandmaster':
         return 'https://static.wikia.nocookie.net/leagueoflegends/images/7/76/Season_2019_-_Grandmaster_1.png/revision/latest/scale-to-width-down/280?cb=20181229234923';
 
-      case 'Challenger IV':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/e/e3/Season_2019_-_Challenger_4.png/revision/latest/scale-to-width-down/280?cb=20181229234916';
-
-      case 'Challenger III':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/e/e0/Season_2019_-_Challenger_3.png/revision/latest/scale-to-width-down/280?cb=20181229234915';
-
-      case 'Challenger II':
-        return 'https://static.wikia.nocookie.net/leagueoflegends/images/2/29/Season_2019_-_Challenger_2.png/revision/latest/scale-to-width-down/280?cb=20181229234915';
-
-      case 'Challenger I':
+      case 'Challenger':
         return 'https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Season_2019_-_Challenger_1.png/revision/latest/scale-to-width-down/280?cb=20181229234913';
 
       default:
