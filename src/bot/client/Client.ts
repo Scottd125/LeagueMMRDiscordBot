@@ -16,13 +16,12 @@ class Bot extends Client {
       /* Discord JS Client Options */
       disableMentions: 'everyone',
     });
-
-    this.prefix = process.env.PREFIX?.toString();
   }
 
   public start() {
     CommandRegistry(this);
     EventRegistry(this);
+    this.prefix = process.env.PREFIX?.toString();
     super.login(process.env.BOT_TOKEN);
   }
 }
