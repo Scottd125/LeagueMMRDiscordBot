@@ -16,8 +16,6 @@ abstract class AramCommand extends Command {
     const summonersName = args.join().replace(/,/g, ' ');
     const summonersNameURI = encodeURI(args.join().replace(/,/g, ''));
 
-    console.log(summonersNameURI);
-
     const LeagueAramMmrEndpoint = `https://euw.whatismymmr.com/api/v1/summoner?name=${summonersNameURI}`;
 
     axios.get(LeagueAramMmrEndpoint).then((response) => {
@@ -32,9 +30,8 @@ abstract class AramCommand extends Command {
           `Data from ${moment.unix(response.data.ARAM.timestamp).fromNow()}\n© ${new Date().getFullYear()} Scogg, Monkey Inc, All rights reserved. 🦧`)
       );
     }).catch((error) => {
-      console.log(error);
       if (error.response.status === 404) {
-        return message.channel.send('\>\>\> Error: Summoner is not on record');
+        return message.channel.send('\>\>\> Error: Summoner is not on record or not enough games played solo in the last 30 days');
       } else {
         return message.channel.send('\>\>\> Error: An unknown error has occured');
       }
