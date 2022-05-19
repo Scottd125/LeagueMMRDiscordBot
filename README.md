@@ -44,8 +44,8 @@ A League of Legends ARAM MMR Discord Bot which displays your rank and percentile
 ### 📷 Screenshots
 
 <div align="center"> 
-  <img src="assets/screenshot1.png" alt="screenshot" />
-  <img src="assets/screenshot2.png" alt="screenshot" />
+  <img src="assets/screenshot1.PNG" alt="screenshot" />
+  <img src="assets/screenshot2.PNG" alt="screenshot" />
 </div>
 
 
@@ -140,7 +140,7 @@ Utilize the 'aram' command by typing your prefix followed by aram and your Leagu
 (E.g. !aram Sir Scoot)
 
 <div align="center"> 
-  <img src="assets/screenshot1.png" alt="screenshot" />
+  <img src="assets/screenshot1.PNG" alt="screenshot" />
 </div>
 
 <!-- Roadmap -->
