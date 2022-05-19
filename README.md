@@ -12,36 +12,36 @@
 
 <!-- Table of Contents -->
 # 📔 Table of Contents
-- [About the Project](#⭐-about-the-project)
-  * [Screenshots](#📷-screenshots)
-  * [Tech Stack](#👾-tech-stack)
-  * [Features](#🎯-features)
-  * [Environment Variables](#🔑-environment-variables)
-- [Getting Started](#🧰-getting-started)
-  * [Prerequisites](#‼️-prerequisites)
-  * [Run Locally](#🏃-run-locally)
-  * [Running Tests](#🧪-running-tests)
-  * [Deployment](#🚩-deployment)
-- [Usage](#👀-usage)
-- [Roadmap](#🧭-roadmap)
-- [Contributing](#👋-contributing)
-  * [Code of Conduct](#📜-code-of-conduct)
-- [FAQ](#❔-faq)
-- [License](#⚠️-license)
-- [Contact](#🤝-contact)
-- [Acknowledgements](#💎-acknowledgements)
+- [About the Project](#star2-about-the-project)
+  * [Screenshots](#camera-screenshots)
+  * [Tech Stack](#space_invader-tech-stack)
+  * [Features](#dart-features)
+  * [Environment Variables](#key-environment-variables)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Run Locally](#running-run-locally)
+  * [Running Tests](#test_tube-running-tests)
+  * [Deployment](#triangular_flag_on_post-deployment)
+- [Usage](#eyes-usage)
+- [Roadmap](#compass-roadmap)
+- [Contributing](#wave-contributing)
+  * [Code of Conduct](#scroll-code-of-conduct)
+- [FAQ](#grey_question-faq)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
+- [Acknowledgements](#gem-acknowledgements)
 
   
 
 <!-- About the Project -->
-## ⭐ About the Project
+## :star2: About the Project
 
 A League of Legends ARAM MMR Discord Bot which displays your rank and percentile based on your MMR.
 
 ❗ Currently only supports EUW accounts. Will expand to other regions in the future.
 
 <!-- Screenshots -->
-### 📷 Screenshots
+### :camera: Screenshots
 
 <div align="center"> 
   <img src="assets/screenshot1.PNG" alt="screenshot" />
@@ -50,7 +50,7 @@ A League of Legends ARAM MMR Discord Bot which displays your rank and percentile
 
 
 <!-- TechStack -->
-### 👾 Tech Stack
+### :space_invader: Tech Stack
 
 <details>
   <summary>Bot</summary>
@@ -68,13 +68,13 @@ A League of Legends ARAM MMR Discord Bot which displays your rank and percentile
 </details>
 
 <!-- Features -->
-### 🎯 Features
+### :dart: Features
 
 - Fetch the latest ARAM MMR Data for any specified profile
 - Display an overview of your current MMR, rank and percentile
 
 <!-- Env Variables -->
-### 🔑 Environment Variables
+### :key: Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -85,17 +85,17 @@ To run this project, you will need to add the following environment variables to
 `PREFIX` - The prefix at the beginning of every command
 
 <!-- Getting Started -->
-## 	🧰 Getting Started
+## 	:toolbox: Getting Started
 
 <!-- Prerequisites -->
-### ‼️ Prerequisites
+### :bangbang: Prerequisites
    
     - Node.js
     - NPM
     - TypeScript
 
 <!-- Run Locally -->
-### 🏃 Run Locally
+### :running: Run Locally
 
 Clone the project
 
@@ -122,18 +122,18 @@ Start the server
 ```
 
 <!-- Running Tests -->
-### 🧪 Running Tests
+### :test_tube: Running Tests
 
 WIP
 
 <!-- Deployment -->
-### 🚩 Deployment
+### :triangular_flag_on_post: Deployment
 
 <!-- TODO -->
 WIP
 
 <!-- Usage -->
-## 👀 Usage
+## :eyes: Usage
 
 Utilize the 'aram' command by typing your prefix followed by aram and your League username
 
@@ -144,13 +144,13 @@ Utilize the 'aram' command by typing your prefix followed by aram and your Leagu
 </div>
 
 <!-- Roadmap -->
-## 🧭 Roadmap
+## :compass: Roadmap
 
 <!-- TODO -->
 WIP
 
 <!-- Contributing -->
-## 👋 Contributing
+## :wave: Contributing
 
 <a href="https://github.com/Scottd125/LeagueMMRDiscordBot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Scottd125/LeagueMMRDiscordBot" />
@@ -163,31 +163,31 @@ Contributions are always welcome!
 
 
 <!-- Code of Conduct -->
-### 📜 Code of Conduct
+### :scroll: Code of Conduct
 
 <!-- TODO -->
 WIP
 <!-- Please read the [Code of Conduct](https://github.com/Scottd125/LeagueMMRDiscordBot/blob/master/CODE_OF_CONDUCT.md) -->
 
 <!-- FAQ -->
-## ❔ FAQ
+## :grey_question: FAQ
 
 <!-- TODO -->
 WIP
 
 <!-- License -->
-## ⚠️ License
+## :warning: License
 
 Distributed under the GNU Affero General Public License v3.0. See LICENSE for more information.
 
 <!-- Contact -->
-## 🤝 Contact
+## :handshake: Contact
 
 <!-- TODO -->
 WIP
 
 <!-- Acknowledgments -->
-## 💎 Acknowledgements
+## :gem: Acknowledgements
 
 Use this section to mention useful resources and libraries that you have used in your projects.
 
