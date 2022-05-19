@@ -10,7 +10,7 @@ abstract class ReadyEvent extends Event {
 
   async exec() {
     if (this.client.user) {
-      this.client.user.setActivity('monkeys MMR', { type: "WATCHING" });
+      this.client.user.setActivity('ARAM MMR', { type: "WATCHING" });
     }
     console.log('Ready!');
   }
