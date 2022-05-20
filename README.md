@@ -189,8 +189,6 @@ WIP
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
-
  - [Discord.js](https://discord.js.org/#/)
  - [WhatIsMyMMR](https://dev.whatismymmr.com/)
  - [Moment](https://momentjs.com/)
