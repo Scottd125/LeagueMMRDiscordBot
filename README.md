@@ -178,7 +178,7 @@ WIP
 <!-- License -->
 ## :warning: License
 
-Distributed under the GNU Affero General Public License v3.0. See LICENSE for more information.
+Distributed under the GNU General Public License v3.0. See LICENSE for more information.
 
 <!-- Contact -->
 ## :handshake: Contact
